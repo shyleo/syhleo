@@ -1,0 +1,34 @@
+From fcb0b45cb29645d6346b4c0b7b95e6abf0df87a5 Mon Sep 17 00:00:00 2001
+From: Nick-lorin <chaojie.luan@cygia.com>
+Date: Sat, 6 Jan 2018 14:14:46 +0800
+Subject: [PATCH] =?UTF-8?q?Add=20toString()=E6=96=B9=E6=B3=95?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+---
+ Emp.java | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+diff --git a/Emp.java b/Emp.java
+index add1ac2..39daca2 100644
+--- a/Emp.java
++++ b/Emp.java
+@@ -1,8 +1,13 @@
+ import java.io.*;
++import java.util.*;
+ public class Emp implements Serializable{
+ 	private Integer empno;
+ 	private String ename;
+ 	private Double sal;
+ 	private Double comn;
+ 	private Emp mgr;
++	private Date date;
++	public String toString(){		
++		return "一位雇员";
++	}
+ }
+\ No newline at end of file
+-- 
+2.12.0.windows.1
+
