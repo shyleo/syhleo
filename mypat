@@ -1,0 +1,16 @@
+diff --git a/Emp.java b/Emp.java
+index 803410e..add1ac2 100644
+--- a/Emp.java
++++ b/Emp.java
+@@ -2,4 +2,7 @@ import java.io.*;
+ public class Emp implements Serializable{
+ 	private Integer empno;
+ 	private String ename;
++	private Double sal;
++	private Double comn;
++	private Emp mgr;
+ }
+\ No newline at end of file
+diff --git "a/\346\265\213\350\257\225\350\241\245\344\270\201.txt" "b/\346\265\213\350\257\225\350\241\245\344\270\201.txt"
+new file mode 100644
+index 0000000..e69de29
